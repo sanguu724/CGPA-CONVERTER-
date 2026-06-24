@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CGPA Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+  <h2>CGPA Converter</h2>
+
+  <select id="mode">
+    <option value="cgpaToMarks">CGPA → Marks</option>
+    <option value="marksToCgpa">Marks → CGPA</option>
+  </select>
+
+  <input id="inputValue" type="number" placeholder="Enter value">
+
+  <div class="btns">
+    <button class="convert" onclick="convert()">Convert</button>
+    <button class="reset" onclick="resetAll()">Reset</button>
+  </div>
+
+  <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
